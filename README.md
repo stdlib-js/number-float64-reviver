@@ -73,7 +73,7 @@ var buf = parseJSON( str, reviveNumber );
 // returns NaN
 ```
 
-For details on the JSON serialization format, see [`@stdlib/number/float64/to-json`][@stdlib/number/float64/to-json].
+For details on the JSON serialization format, see [`@stdlib/number-float64/to-json`][@stdlib/number/float64/to-json].
 
 </section>
 
@@ -132,7 +132,7 @@ console.log( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/number/float64/to-json`][@stdlib/number/float64/to-json]</span><span class="delimiter">: </span><span class="description">return a JSON representation of a number.</span>
+-   <span class="package-name">[`@stdlib/number-float64/to-json`][@stdlib/number/float64/to-json]</span><span class="delimiter">: </span><span class="description">return a JSON representation of a number.</span>
 
 </section>
 
