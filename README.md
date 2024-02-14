@@ -190,8 +190,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/number-float64-reviver.svg
 [npm-url]: https://npmjs.org/package/@stdlib/number-float64-reviver
 
-[test-image]: https://github.com/stdlib-js/number-float64-reviver/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/number-float64-reviver/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/number-float64-reviver/actions/workflows/test.yml/badge.svg?branch=v0.2.0
+[test-url]: https://github.com/stdlib-js/number-float64-reviver/actions/workflows/test.yml?query=branch:v0.2.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/number-float64-reviver/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/number-float64-reviver?branch=main
