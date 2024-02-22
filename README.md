@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@esm/index.mjs';
+import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@v0.2.1-esm/index.mjs';
 ```
 
 #### reviveNumber( key, value )
@@ -98,7 +98,7 @@ For details on the JSON serialization format, see [`@stdlib/number-float64/to-js
 
 import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@esm/index.mjs';
 import number2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-to-json@esm/index.mjs';
-import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@esm/index.mjs';
+import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@v0.2.1-esm/index.mjs';
 
 var str = JSON.stringify( number2json( NaN ) );
 console.log( str );
