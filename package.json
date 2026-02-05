@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/number-float64-reviver",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Revive a JSON-serialized number.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-ninf": "^0.2.2",
-    "@stdlib/constants-float64-pinf": "^0.2.2"
+    "@stdlib/constants-float64-ninf": "^0.2.3",
+    "@stdlib/constants-float64-pinf": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/number-float64-to-json": "^0.2.2",
