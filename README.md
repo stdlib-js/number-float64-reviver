@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/number-float64-reviver/tags). For example,
+
+```javascript
 import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@v0.2.3-deno/mod.js';
 ```
 
@@ -93,7 +98,7 @@ For details on the JSON serialization format, see [`@stdlib/number-float64/to-js
 ```javascript
 import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
 import number2json from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-to-json@deno/mod.js';
-import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@v0.2.3-deno/mod.js';
+import reviveNumber from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-float64-reviver@deno/mod.js';
 
 var str = JSON.stringify( number2json( NaN ) );
 console.log( str );
